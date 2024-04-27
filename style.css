@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-section-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+}
+#section1 {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+  justify-content: center;
+  /* position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto */
+}
+#section1 h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: white;
+}
+#section1 h3 {
+  font-size: 22px;
+}
+#section1 button {
+  background-color: grey;
+  border: 2px solid skyblue;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+#section2 {
+  padding: 50px 50px 0px 50px;
+  /* overflow-y: auto;  */
+}
+#section2 h1 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.pinned-post {
+  text-transform: uppercase;
+  border-bottom: 0.5px solid grey;
+  padding-bottom: 6px;
+  color: grey;
+}
+.recent-post {
+  text-transform: uppercase;
+  border-bottom: 0.5px solid grey;
+  padding-bottom: 6px;
+  color: grey;
+  margin-top: 30px;
+}
+.image-box {
+  display: flex;
+}
+.author {
+  text-decoration: none;
+}
+.css {
+  background-color: rgb(96, 96, 120);
+  color: white;
+  padding: 0px 7px;
+}
+.pure {
+  background-color: green;
+  color: white;
+  padding: 0px 7px;
+}
+.section-para {
+  margin-top: 20px;
+  letter-spacing: 0.7px;
+  margin-bottom: 20px;
+}
+.css1 {
+  background-color: red;
+  color: white;
+  padding: 0px 7px;
+}
+.css2 {
+  background-color: grey;
+  color: white;
+  padding: 0px 7px;
+}
+.image-box {
+  margin-top: 15px;
+}
+.photos-section {
+  margin-top: 20px;
+}
